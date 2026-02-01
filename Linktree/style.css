@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Body{
+    background-color: black;
+    color: white;
+}
+.pic{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    height: 30vh;
+    border-radius: 50%;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.links a{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding: 1rem;
+    border: 3px solid white;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+.desc{
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+}
